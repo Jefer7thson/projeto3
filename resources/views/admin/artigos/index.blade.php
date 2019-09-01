@@ -12,7 +12,7 @@
       </div>
     @endif
 
-    <painel titulo="Listar Agendamentos">
+    <painel titulo="Listar Tarefas">
       <migalhas v-bind:lista="{{$listaMigalhas}}"></migalhas>
 
 
@@ -41,7 +41,7 @@
       </div>
       <div class="form-group">
         <label for="descricao">Categoria</label>
-        <input type="text" class="form-control" id="descricao" name="Categoria" placeholder="Categoria" value="{{old('descricao')}}">
+        <input type="text" class="form-control" id="descricao" name="descricao" placeholder="descricao" value="{{old('descricao')}}">
       </div>
 
       <div class="form-group">

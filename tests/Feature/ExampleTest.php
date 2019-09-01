@@ -18,4 +18,11 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    Public function testBasicEnd()
+    {
+        $response = $this->get('/');
+
+        $response->assertStatus(200);
+    }
 }

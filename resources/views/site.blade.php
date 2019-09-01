@@ -2,6 +2,7 @@
 
 @section('content')
   <pagina tamanho="12">
+
     <painel titulo="AGENDAMENTOS">
 
       <p>
