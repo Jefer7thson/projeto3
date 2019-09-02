@@ -2,6 +2,7 @@
 
 @section('content')
   <pagina tamanho="12">
+    <painel titulo="Lista">
 
     @if($errors->all())
       <div class="alert alert-danger alert-dismissible text-center" role="alert">

@@ -19,7 +19,7 @@ class ArtigosController extends Controller
     {
         $listaMigalhas = json_encode([
           ["titulo"=>"Admin","url"=>route('admin')],
-          ["titulo"=>"Lista de artigos","url"=>""]
+          ["titulo"=>"Listando as Tarefas","url"=>""]
         ]);
         /*
         $listaArtigos = Artigo::select('id','titulo','descricao','user_id','data')->paginate(5);
